@@ -2,17 +2,21 @@
   "name": "blazing-8s-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "tsc && node dist/index.js"
+    "start": "tsc && node dist/index.js",
+    "test": "tsc && jasmine"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.11.30",
+    "jasmine": "^5.1.0",
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@types/lodash": "^4.17.0",
     "lodash": "^4.17.21"
   }
 }
