@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Ranks = void 0;
+var Ranks;
+(function (Ranks) {
+    Ranks["ONE"] = "1";
+    Ranks["TWO"] = "2";
+    Ranks["THREE"] = "3";
+    Ranks["FOUR"] = "4";
+    Ranks["FIVE"] = "5";
+    Ranks["SIX"] = "6";
+    Ranks["SEVEN"] = "7";
+    Ranks["EIGHT"] = "8";
+    Ranks["NINE"] = "9";
+    Ranks["TEN"] = "10";
+    Ranks["JACK"] = "J";
+    Ranks["QUEEN"] = "Q";
+    Ranks["KING"] = "K";
+    Ranks["NONE"] = "NONE";
+})(Ranks || (exports.Ranks = Ranks = {}));
